@@ -4,6 +4,9 @@ body {
   font-size: 16px;
   color: #9d9ea5;
   overflow-x: hidden;
+
+  
+
 }
 
 
@@ -936,6 +939,17 @@ height: 900px;
   padding: 0 50px 0 50px;
 }
 
+.site-fragen {
+  width: 75%;
+  margin: auto;
+  padding: 0 50px 0 50px;
+}
+.site-checks {
+  width: 25%;
+  margin: 0;
+  padding: 0 50px 0 50px;
+}
+
 @media (max-width: 991px) {
   .site-about-description {
     width: 100%;
@@ -1391,3 +1405,99 @@ font-family: serif;
   /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
 
   
+
+
+
+/* checkbox*/
+
+/* div {
+  counter-reset: checkBox-length;
+}
+div input[type="checkBox"]:after {
+  position: relative;
+  top: 15px;
+} */
+
+.ja {
+  counter-reset: checkBox-counter 0;
+ 
+}
+.ja input:checked {
+  counter-increment: checkBox-counter;
+}
+check:after {
+  content: "Anzahl JA " counter(checkBox-counter) " Mal";
+  display: block;
+  position: absolute;
+  margin: 15px;
+}
+
+/* div {
+  counter-reset: checkBox-length;
+} */
+
+.nein {
+  counter-reset: checkbox-counter 0;
+ 
+}
+.nein input:checked {
+  counter-increment: checkbox-counter;
+}
+
+check-nein:after {
+  content: "Anzahl NEIN " counter(checkbox-counter) " Mal";
+  display: block;
+  position: absolute;
+  margin: 15px;
+}
+
+
+
+
+.ja-b {
+  counter-reset: checkBoX-counter 0;
+ 
+}
+.ja-b input:checked {
+  counter-increment: checkBoX-counter;
+}
+check-ja-b:after {
+  content: "Anzahl JA " counter(checkBoX-counter) " Mal";
+  display: block;
+  position: absolute;
+  margin: 15px;
+}
+
+/* div {
+  counter-reset: checkBox-length;
+} */
+
+.nein-b {
+  counter-reset: checkBOX-counter 0;
+ 
+}
+.nein-b input:checked {
+  counter-increment: checkBOX-counter;
+}
+
+check-nein-b:after {
+  content: "Anzahl NEIN " counter(checkBOX-counter) " Mal";
+  display: block;
+  position: absolute;
+  margin: 15px;
+}
+
+
+/* text-area */
+textarea {
+  font-size:18px;
+  letter-spacing: 1px;
+}
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
