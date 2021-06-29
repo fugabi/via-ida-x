@@ -1216,7 +1216,7 @@ height: 900px;
 #via-ida-slider {
     position: relative;
    
-    /* max-width: 1400px; */
+    max-width: 1400px;
     /* z-index: 1; */
     /* border: 1px solid black; */
   }
@@ -1242,7 +1242,7 @@ height: 900px;
     height: 100%;
     overflow: hidden;
     position: relative;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     text-align: center;
     /* border: 1px solid green; */
     border-right: none;
@@ -1268,12 +1268,15 @@ height: 900px;
     }
   }
   #via-ida-slider .MS-content .item p {
-    /* font-size: 18px; */
+    white-space: normal;
+    font-size: 18x;
     text-align: left;
     line-height: 1;
     vertical-align: middle;
-    margin: 0;
-    padding: 10px 0;
+    margin: 0 55px;
+    padding: 20px 0;
+    height: 5rem;
+    
   }
   #via-ida-slider .MS-controls button {
     position: absolute;
@@ -1315,12 +1318,12 @@ height: 900px;
     max-width: 400px;
   }
   
-  .align {
+  /* .align {
     display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-  }
+  } */
 
   .serif {
 font-family: KarminaRegular;   
