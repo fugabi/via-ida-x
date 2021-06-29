@@ -1,12 +1,16 @@
 @import "https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Montserrat:300,400,500,600,700&amp;display=swap";
+
+@font-face {
+  font-family: KarminaRegular;
+  src: url(/KarminaRegular/KarminaRegular.otf);
+}
+
+
 body {
   font-family: josefin sans, sans-serif;
   font-size: 16px;
   color: #9d9ea5;
   overflow-x: hidden;
-
-  
-
 }
 
 
@@ -1319,7 +1323,7 @@ height: 900px;
   }
 
   .serif {
-font-family: serif;    
+font-family: KarminaRegular;   
   }
 
 
