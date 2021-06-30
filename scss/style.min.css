@@ -1242,9 +1242,9 @@ height: 900px;
     height: 100%;
     overflow: hidden;
     position: relative;
-    /* vertical-align: middle; */
+    vertical-align: baseline;
     text-align: center;
-    /* border: 1px solid green; */
+    /* border-bottom: 1px solid gray; */
     border-right: none;
     width: 50%;
    
@@ -1267,17 +1267,29 @@ height: 900px;
       width: 50%;
     }
   }
-  #via-ida-slider .MS-content .item p {
+  
+
+  #via-ida-slider .MS-content .item h6 {
     white-space: normal;
-    font-size: 18x;
+    /* font-size: 18x; */
     text-align: left;
-    line-height: 1;
+    line-height: 1.25;
     vertical-align: middle;
     margin: 0 55px;
     padding: 20px 0;
-    height: 5rem;
+    height: 6rem;
     
   }
+
+  #via-ida-slider .MS-content .item p {
+    margin: 0 55px;
+    padding-top: 4rem; 
+    border-bottom: 1px solid gray;
+    text-align: left;
+    height: -3rem;
+  }
+ 
+
   #via-ida-slider .MS-controls button {
     position: absolute;
     border: none;
@@ -1297,7 +1309,7 @@ height: 900px;
   #via-ida-slider .MS-controls .MS-left {
     left: -100px;
     position: absolute;
-    top:45%;
+    top:35%;
   }
   @media (max-width: 992px) {
     #via-ida-slider .MS-controls .MS-left {
@@ -1307,7 +1319,7 @@ height: 900px;
   #via-ida-slider .MS-controls .MS-right {
     right: -100px;
     position: absolute;
-    top:45%;
+    top:35%;
   }
   @media (max-width: 992px) {
     #via-ida-slider .MS-controls .MS-right {
@@ -1507,4 +1519,8 @@ textarea {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px #999;
+}
+
+.show {
+  padding-top: 4rem; border-bottom: 1px solid gray;
 }
