@@ -14,7 +14,7 @@ body {
 }
 
 
-#circularcursor {
+/* #circularcursor {
   
     background-color: transparent;
     border:1px solid red;    
@@ -28,6 +28,18 @@ body {
     border-radius: 39% 40% 70% 30% / 41% 45% 55% 55%;
     animation: morph 5s linear infinite;
     will-change: border-radius;
+  } */
+
+
+  #circle{
+    width: 90px;
+    height: 90px;
+    border: 1px solid red;
+    position:fixed;
+    border-radius: 39% 40% 70% 30% / 41% 45% 55% 55%;
+    animation: morph 5s linear infinite;
+    will-change: border-radius;
+    z-index: 0;
   }
   
   @keyframes morph {
