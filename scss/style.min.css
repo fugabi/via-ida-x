@@ -4,11 +4,15 @@
   font-family: KarminaRegular;
   src: url(KarminaRegular/KarminaRegular.otf);
 }
-
+@font-face {
+  font-family: Futura;
+  src: url(Futura/FuturaBookfont.ttf);
+}
 
 body {
   font-family: josefin sans, sans-serif;
-  font-size: 16px;
+  /* font-family: 'Futura'; */
+  font-size: 18px;
   color: #9d9ea5;
   overflow-x: hidden;
 }
@@ -74,6 +78,7 @@ h6 {
   color: #00113e;
 }
 p {
+  
   font-size: 16px;
   color: #9d9ea5;
 }
